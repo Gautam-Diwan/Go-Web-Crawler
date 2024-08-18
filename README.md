@@ -6,8 +6,10 @@ This project contains two versions of a simple web crawler implemented in Go. Th
 
 - `url_fetcher/`
   - `fetcher.go`: Contains the `Fetcher` interface and the `HTTPFetcher` struct with methods to fetch and extract URLs from a web page.
-- `web_crawler_synchronous.go`: Synchronous version of the web crawler.
-- `web_crawler_waitgroup.go`: Concurrent version of the web crawler using goroutines and `sync.WaitGroup`.
+- `web_crawler_synchronous/`
+  - `web_crawler_synchronous.go`: Synchronous version of the web crawler.
+- `web_crawler_waitgroup/`
+  - `web_crawler_waitgroup.go`: Concurrent version of the web crawler using goroutines and `sync.WaitGroup`.
 
 ## Dependencies
 
